@@ -27,6 +27,6 @@ public class StoryFragment extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mStory = new Story();
+        mStory = mStory.getInstance();
     }
 }
