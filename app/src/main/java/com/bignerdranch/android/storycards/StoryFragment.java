@@ -28,5 +28,6 @@ public class StoryFragment extends Fragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mStory = mStory.getInstance();
+        //slice
     }
 }
